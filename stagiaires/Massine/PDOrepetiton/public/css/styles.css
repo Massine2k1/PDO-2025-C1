@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    color: white;
+}
+
+form label{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    background-color: rgb(62, 62, 65);
+    width: 70%;
+    padding:1em;
+    border-radius: 20px;
+}
+
+.nomessages{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+form textarea{
+    margin-bottom: 1em;
+}
+
+form button{
+    padding: 1em;
+    border-radius: 1em;
+    background-color:#a1a1a8;
+    font-size: 1em;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+input{
+    height: 2em;
+}
+
+.cont_messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    font-variation-settings:
+      "YOPQ" 300;
+}
+
+.cont_messages h2{
+    text-align: center;
+}
+
+.messages{
+    background-color: bisque;
+    margin-bottom: 1em;
+    padding: 0 1em;
+    border-radius: 10px;
+}
+

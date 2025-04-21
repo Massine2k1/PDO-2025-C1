@@ -21,7 +21,7 @@ function getAllMessagesByDateDesc(PDO $connectDB): array
 
 
 // on veut insérer le formulaire dans la db
-function setArticle(PDO $pdo, string $name,string $email,string $text, string $date): bool
+function setArticle(PDO $pdo, string $name,string $email,string $text, string $date): bool | string
 {
 
     $error="";

@@ -14,6 +14,13 @@
     <h1>Exercice</h1>
     <h2>Laissez-nous un message</h2>
     <form action="" method="POST">
+        <?php
+        if (isset($error)){
+        ?>
+        <p class="error"><?=$error?></p>
+        <?php
+        }
+        ?>
         <label for="name">Nom :</label>
         <input type="text" name="name" id="name" required>
 

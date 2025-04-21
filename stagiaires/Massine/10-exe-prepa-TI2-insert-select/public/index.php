@@ -9,7 +9,7 @@
 require_once "../config.php";
 # chargement du modèle (fonctions)
 require_once "../model/MessagesModel.php";
-
+var_dump(DB_DSN);
 
 # connexion à PDO
 # connexion à PDO
